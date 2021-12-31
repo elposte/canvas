@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Dibujando con Canvas</title>
+        <style>
+            body
+            {
+                background-color: #0c1633;
+                color: rgb(255, 255, 255);
+                font-family: Monserrat -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+            }
+        </style>
+    </head>
+
+    <body>
+    <h1 id= Titulo>DIBUJO EN CANVAS</h1>
+    <P>
+        ¿Cuantas Lineas quieres?: 
+        <input type="text" id="texto_lineas" />
+        <br />
+        <br />
+        ¿Que Color quieres?
+        <input type="color" id="color_lineas" />
+        <br />
+        <br />
+        <input type="button" value="A Darle!" id="boton_lineas" /> 
+        
+    </P>
+    <canvas width="300" height="300" id="dibujito"></canvas>
+    <p>Asi queda tu dibujo</p>
+    <script src="dibujo.js"></script>
+    </body>
+</html>
